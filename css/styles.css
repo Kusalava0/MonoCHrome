@@ -1,0 +1,289 @@
+/* images */
+.logo {
+    width: 4rem;
+    border: transparent;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.75rem;
+}
+
+.heart {
+    width: 2%;
+}
+
+.period {
+    width: 0.25%;
+    background: black;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+
+h1 {
+    font-weight: bolder;
+    font-size: 400%;
+}
+
+
+/* navbar */
+.navbar {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navitems ul,
+.brands ul {
+    list-style: none;
+    display: flex;
+}
+
+.navitems {
+    padding-left: 6rem;
+}
+
+.navitems ul li {
+    padding-right: 2rem;
+    font-weight: 600;
+}
+
+
+/* brand section */
+.brands ul li {
+    border: none;
+}
+
+.search {
+    border: transparent;
+    background-color: transparent;
+}
+
+.font1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.font2 {
+    font-family: 'Shantell Sans', cursive;
+}
+
+.font3 {
+    font-family: 'Manrope', sans-serif;
+}
+
+.font4 {
+    font-family: 'Mynerve', cursive;
+
+}
+
+.font5 {
+    font-family: 'Shantell Sans';
+
+}
+
+.font6 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Whitecrush */
+.whitecrush {
+    /* background-color: aqua; */
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/back-img-3.png");
+}
+
+#whitecrushdiv {
+    padding-left: 10rem;
+}
+
+
+/* experience*/
+.experience {
+    margin-top: 6rem;
+}
+
+.col-sm-4 button {
+    font-size: medium;
+    padding: 1rem;
+}
+
+.experience h4 {
+    font-weight: 400;
+}
+
+.col-sm-4,
+.col-lg-12 {
+    padding-left: 0%;
+}
+
+.col-sm-4 {
+    padding-right: 2rem;
+}
+
+.col-sm-4 button {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.exp-margin {
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+
+.exp-margin p {
+    font-size: large;
+    line-height: 200%;
+}
+
+
+/* brands */
+.brands {
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/back-img-3.png");
+}
+
+.brands h4 {
+    font-weight: 400;
+}
+
+.brand-center {
+    margin-top: 3rem;
+}
+
+.brand-center span {
+    margin-right: 2rem;
+    font-size: 200%;
+}
+
+
+/* stories */
+.stories img {
+    height: 325px;
+    width: 550px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.stories h4 {
+    font-weight: 400;
+}
+
+.stories {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.story-img {
+    padding: 0rem;
+}
+
+/* .whitecrushdiv, */
+.brandsdiv,
+.stories,
+.experience {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/* groung */
+.ground {
+    padding: 3rem;
+    background-image: linear-gradient(to right top, #408cff, #00a1ff, #00b4ff, #00c5ff, #00d4ff);
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ground button {
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+
+.contact {
+    display: inline-flex;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.dash {
+    opacity: 30%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+/* Mobile friendly changes */
+@media (max-width: 1415px) {
+    .navitems {
+        padding-left: 0rem;
+    }
+
+    .navitems ul li {
+        padding-right: 0.5rem;
+        font-weight: 600;
+    }
+
+    .stories img {
+        width: 350px;
+        height: 225px;
+    }
+
+    .brand-center span {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .col-sm-4 {
+        display: none;
+    }
+
+    .navitems a {
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .stories img {
+        width: 250px;
+        height: 125px;
+    }
+
+    .brand-center span {
+        font-size: 100%;
+    }
+}
